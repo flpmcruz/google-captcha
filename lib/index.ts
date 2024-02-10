@@ -6,6 +6,12 @@ type Props = {
   score?: number;
 };
 
+/**
+ * Check if the captcha is valid
+ * @param {string} captcha - The captcha response token from the client
+ * @param {string} recaptcha_key - The recaptcha secret key
+ * @param {number} score - The minimum score required to pass the captcha (default: 0.5 if not provided)
+ */
 const checkCaptcha = async ({
   captcha,
   recaptcha_key,
