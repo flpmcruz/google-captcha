@@ -1,6 +1,6 @@
 {
   "name": "google-captcha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verify Google Captcha with Node.js",
   "type": "module",
   "main": "lib/index.js",
@@ -21,7 +21,7 @@
   "author": "Felipe Mireles Cruz",
   "dependencies": {
     "axios": "^1.6.7",
-    "google-captcha": "^1.0.0"
+    "google-captcha": "^1.0.1"
   },
   "repository": {
     "type": "git",
